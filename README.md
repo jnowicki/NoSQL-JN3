@@ -79,19 +79,19 @@ $sw = [Diagnostics.Stopwatch]::StartNew()
 $sw.Stop()
 ~~~
 Początek importu.
-[importwiki1](screenshots/importwiki1.png) <br />
+![importwiki1](screenshots/importwiki1.png) <br />
 
 Zużycie RAM wzrasta. Rdzeń nr 4 procesora pracuje na wątku jak widać.
-[importwiki2](screenshots/importwiki2.png) <br />
+![importwiki2](screenshots/importwiki2.png) <br />
 
 Lekkie przepełnienie pamięci w połowie importowania.
-[importwiki3](screenshots/importwiki3.png) <br />
+![importwiki3](screenshots/importwiki3.png) <br />
 
 Prawie koniec.
-[importwiki4](screenshots/importwiki4.png) <br />
+![importwiki4](screenshots/importwiki4.png) <br />
 
 Koniec. Czas importu 37 minut i 16 sekund.
-[importwiki5](screenshots/importwiki5.png) <br />
+![importwiki5](screenshots/importwiki5.png) <br />
 
 Liczba rekordów w bazie oraz dane statystyczne na temat bazy.
 [wikicountstats](screenshots/wikicountstats.png) <br />
@@ -110,6 +110,7 @@ Początek działania skryptu na serwerze.
 ![mapReduceWiki](screenshots/mapReduceWiki.png) <br />
 
 Skrypt działał bardzo długo, bo nie był zoptymalizowany na wiele wątków i wiele rdzeni procesora.
+Jak widać procesor nr 3 działał przy tym reduce.
 
 Kompletny czas działania to było:
 
